@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ .btn {
+  color: white;
+ }
+
+.btn:hover {
+  background-color: rgba(26, 26, 241, 0.961);
+}
+
+h2 {
+  font-family: Roboto Slab;
+  color: rgb(23, 143, 213);
+}
+
+p {
+  font-family: Poirot One, sans-serif;
+}

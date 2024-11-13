@@ -1,0 +1,26 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/articles">Wikinimous</a>
+    <form class="d-flex">
+      <button class="btn btn-primary btn-outline-success" type="submit">New article</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="row justify-content-center">
+  <div class="col-6">
+    <h1>New article</h1>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Title</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <a class="btn btn-primary" type="submit" value="Submit" href="/articles">Create article</a>
+    <p></p>
+    <%= link_to "Back", articles_path %>
+  </div>
+  </div>
